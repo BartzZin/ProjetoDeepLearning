@@ -1,0 +1,29 @@
+{
+  "dataset": "and",
+  "feature_names": [
+    "Bias",
+    "X1",
+    "X2"
+  ],
+  "eta0": 0.1,
+  "maximo_epocas": 100,
+  "random_state": 42,
+  "fit_intercept": false,
+  "shuffle": false,
+  "classes": [
+    -1,
+    1
+  ],
+  "coeficientes_finais": [
+    -0.20000000000000004,
+    0.2,
+    0.1
+  ],
+  "intercepto_final": [
+    0.0
+  ],
+  "epocas_executadas": 3,
+  "convergiu": true,
+  "total_amostras": 4,
+  "acertos": 4
+}

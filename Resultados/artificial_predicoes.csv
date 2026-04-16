@@ -1,0 +1,13 @@
+amostra,atributos,classe_real,classe_prevista,acerto
+1,Bias=1.0 | X1=4.0 | X2=5.0,1,1,sim
+2,Bias=1.0 | X1=2.0 | X2=4.5,-1,-1,sim
+3,Bias=1.0 | X1=5.0 | X2=4.5,1,1,sim
+4,Bias=1.0 | X1=3.0 | X2=4.0,1,1,sim
+5,Bias=1.0 | X1=1.5 | X2=3.0,-1,-1,sim
+6,Bias=1.0 | X1=2.5 | X2=3.0,-1,-1,sim
+7,Bias=1.0 | X1=4.0 | X2=3.0,1,1,sim
+8,Bias=1.0 | X1=5.0 | X2=3.0,1,1,sim
+9,Bias=1.0 | X1=1.5 | X2=1.5,-1,-1,sim
+10,Bias=1.0 | X1=3.0 | X2=2.0,-1,-1,sim
+11,Bias=1.0 | X1=5.0 | X2=1.5,1,1,sim
+12,Bias=1.0 | X1=4.0 | X2=1.0,-1,-1,sim

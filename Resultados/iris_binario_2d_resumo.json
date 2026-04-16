@@ -1,0 +1,29 @@
+{
+  "dataset": "iris_binario_2d",
+  "feature_names": [
+    "Bias",
+    "PetalLength",
+    "PetalWidth"
+  ],
+  "eta0": 0.1,
+  "maximo_epocas": 100,
+  "random_state": 42,
+  "fit_intercept": false,
+  "shuffle": false,
+  "classes": [
+    -1,
+    1
+  ],
+  "coeficientes_finais": [
+    0.2,
+    -0.0500000000000001,
+    -0.07999999999999997
+  ],
+  "intercepto_final": [
+    0.0
+  ],
+  "epocas_executadas": 2,
+  "convergiu": true,
+  "total_amostras": 150,
+  "acertos": 150
+}
