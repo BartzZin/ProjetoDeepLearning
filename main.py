@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 from src.iris_datasets import ensure_iris_datasets
@@ -5,7 +6,13 @@ from src.perceptron import load_dataset, train_perceptron
 from src.reporting import save_history, save_predictions, save_summary
 
 
-BASE_DIR = Path(__file__).resolve().parent
+def get_base_dir() -> Path:
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parent
+
+
+BASE_DIR = get_base_dir()
 DATASETS_DIR = BASE_DIR / "Bases"
 OUTPUT_DIR = BASE_DIR / "Resultados"
 ETA0 = 0.1
