@@ -95,8 +95,8 @@ def run_gui() -> None:
             ),
         )
         output.insert(tk.END, "\n".join(messages))
+        output.insert(tk.END, "\n" "Processamento finalizado com sucesso.")
         output.see(tk.END)
-        messagebox.showinfo("Concluido", "Processamento finalizado com sucesso.")
 
     button = tk.Button(
         window,
