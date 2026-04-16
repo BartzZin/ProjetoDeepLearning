@@ -59,4 +59,4 @@ Nessas bases, `D = 1` representa `setosa` e `D = -1` representa `versicolor + vi
 
 As bases fornecidas ja possuem a coluna `Bias`, entao o projeto desabilita `fit_intercept` nesses casos para evitar duplicidade de vies. A base `xor.csv` continua sendo o caso esperado de nao convergencia para um Perceptron linear.
 
-## Duvidas me chamar no Discord XD Stuxnet#8096
+## Duvidas me chamar no Discord 🔥🔥 - Stuxnet#8096
