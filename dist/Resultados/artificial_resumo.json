@@ -1,0 +1,29 @@
+{
+  "dataset": "artificial",
+  "feature_names": [
+    "Bias",
+    "X1",
+    "X2"
+  ],
+  "eta0": 0.1,
+  "maximo_epocas": 100,
+  "random_state": 42,
+  "fit_intercept": false,
+  "shuffle": false,
+  "classes": [
+    -1,
+    1
+  ],
+  "coeficientes_finais": [
+    -3.4000000000000017,
+    0.7499999999999997,
+    0.39999999999999925
+  ],
+  "intercepto_final": [
+    0.0
+  ],
+  "epocas_executadas": 26,
+  "convergiu": true,
+  "total_amostras": 12,
+  "acertos": 12
+}
